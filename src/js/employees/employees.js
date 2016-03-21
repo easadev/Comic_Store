@@ -13,7 +13,7 @@ angular.module('employees', [
             if( modelValue.length<8 ){
                 return false;
             }
-            if( /[A-Z]*/.test(modelValue) && /\d{2}/.test(modelValue) && /\W/.test(modelValue) ){
+            if( /[A-Z]+/.test(modelValue) && /\d{2}/.test(modelValue) && /\W/.test(modelValue) ){
               return true;
             }
             return false;
