@@ -1,0 +1,14 @@
+<div class="login-container">
+    <div class="login-form">
+            <h2>INICIO DE SESIÓN</h2>
+            <p ng-show="message">{{ message }}</p>
+            <center><img src="img/comic-store-logo.jpg" class="pure-img"></center>
+            <form name="LoginForm" class="pure-form pure-form-stacked">
+                <label>Nombre de usuario</label>
+                <input type="text" ng-model="credentials.username" class="pure-input-rounded" required>
+                <label>Contraseña</label>
+                <input type="password" ng-model="credentials.password" class="pure-input-rounded" required>
+                <input type="button" class="pure-button" value="Iniciar Sesión" class="form-input" ng-disabled="!LoginForm.$valid" ng-click="login(credentials)">
+            </form>
+    </div>
+</div>

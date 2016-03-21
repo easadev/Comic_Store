@@ -1,0 +1,15 @@
+<div class="comic-zoom">
+    <h3 class="title">{{ comic.title | uppercase }}</h3>
+    <div class="body">
+        <article class="pure-g">
+            <div class="pure-u-1" ng-bind-html="comic.description">
+            </div>
+            <div class="pure-u-1">
+                <h3 ng-show="comic.comments.length">COMENTARIOS</h3>
+                <p ng-repeat="comment in comic.comments">
+                    <i>{{ comment.comment }}</i> - <b> {{ comment.name }} </b>
+                </p>
+            </div>
+        </article>
+    </div>
+</div>

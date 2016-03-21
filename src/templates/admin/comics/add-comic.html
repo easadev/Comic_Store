@@ -1,0 +1,10 @@
+<div ng-controller="AddComicController" class="form-column">
+    <h2>NUEVO CÓMIC</h2>
+    <form name="AddComic" class="pure-form pure-form-stacked">
+        <label>Título del cómic</label>
+        <input type="text" ng-model="comic.title" placeholder="Título" required>
+        <label>Descripción</label>
+        <textarea ng-model="comic.description" required></textarea>
+        <button ng-disabled="!AddComic.$valid" ng-click="createComic(comic)" class="pure-button pure-button-primary">Crear cómic</button>
+    </form>
+</div>

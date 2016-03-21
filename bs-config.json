@@ -1,0 +1,5 @@
+{
+  "port": 8000,
+  "files": ["./src/**/*.{html,htm,css}", "./src/js/comic-store.js"],
+  "server": { "baseDir": "./src" }
+}

@@ -1,0 +1,21 @@
+<div class="comics">
+    <div class="pure-g">
+        <div class="pure-u-1 pure-u-md-2-3">
+            <form class="pure-form pure-form-inline">
+                <h2>LISTA DE COMICS</h2><input class="pure-input-rounded" ng-model="searchText" placeholder="Buscar">
+            </form>
+            <div class="pure-g">
+                <article ng-repeat="comic in filteredComics" class="pure-u-1 pure-u-sm-12-24 pure-u-md-8-24">
+                    <div class="comic" ng-click="openComic(comic.id)">
+                        <h3>{{ comic.title | limitTo : 20 : 0 }}</h3>
+                        <p>{{ comic.description | limitTo : 34 : 0 }}</p>
+                    </div>
+                </article>
+                <button ng-if="showLoadMoreComics" ng-click="fetchComics()" class="pure-u-1 pure-button pure-button-primary" style="margin-top:10px">Cargar más</button>
+            </div>
+        </div>
+        <div class="pure-u-1 pure-u-md-1-3">
+            <ng-include src="'templates/admin/comics/add-comic.html'"></ng-include>
+        </div> 
+    </div>
+</div>

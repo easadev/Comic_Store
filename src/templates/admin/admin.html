@@ -1,0 +1,15 @@
+<div id="wrapper">
+    <nav class="pure-menu pure-menu-horizontal pure-menu-custom">
+        <ul class="pure-menu-list">
+            <li class="pure-menu-item">
+                <a ui-sref="admin.comics" class="pure-menu-link" ng-class="{active: current==='admin.comics'}">Comics</a>
+            </li>
+            <li class="pure-menu-item">
+                <a ui-sref="admin.employees" class="pure-menu-link" ng-class="{active: current==='admin.employees'}">Empleados</a>
+            </li>
+        </ul>
+        <button class="pure-button pure-button-error" ng-click="logout()">Cerrar sesión</button>
+    </nav>
+    <section class="content" ui-view>
+    </section>
+</div>

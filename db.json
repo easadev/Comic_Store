@@ -1,0 +1,139 @@
+{
+  "employees": [
+    {
+      "id": 1,
+      "username": "admin",
+      "password": "admin",
+      "name": "Esteban Andrés Sánchez Ardila"
+    }
+  ],
+  "comics": [
+    {
+      "id": 1,
+      "title": "The walking dead",
+      "description": "Aprende como sobrevivir en un apocalipsis zombie",
+      "employeeId": 1
+    },
+    {
+      "title": "Ms. Marvel",
+      "description": "Kamala Khan, a Pakistani-American teenager who sneaks out one night, inhales a weird mist and wakes up with superpowers that let her change shape and size.",
+      "id": 2
+    },
+    {
+      "title": "Saga",
+      "description": "Beautiful space humanoids Alana and Marko, who fell in love while fighting for opposite sides of long-running galactic war. They’ve given birth to a little girl and are trying to be the best parents they can be while on the run from bounty hunters and political operatives who want to capture or kill them.",
+      "id": 3
+    },
+    {
+      "title": "Omega Men",
+      "description": "A polyglot team of six beings from the Vega system, where the oppressive Alpha Citadel has ruled for years. They kidnap former Green Lantern Kyle Rayner and begin a long bid to get him to join their asymmetrical machiavellian campaign against the Alphas.",
+      "id": 4
+    },
+    {
+      "title": "Thor",
+      "description": "The person wielding the magical hammer Mjolnir. For most of Marvel Comics’ real and fictional history, it’s been Thor Odinson, prince of Asgard. Right now, it’s a human woman whose identity remains a secret to everyone except the people reading her comic.",
+      "id": 5
+    },
+    {
+      "title": "Darth Vader",
+      "description": "The Dark Lord of the Sith. This Marvel Comics series happens between Star Wars and The Empire Strikes and shows Vader grappling with the internal political fallout after his defeat at the hands of the Rebel Alliance.",
+      "id": 6
+    },
+    {
+      "title": "The Vision",
+      "description": "The android Avenger called Vision and the family he created so he could have meaningful connections in the world he protects. The Visions’ attempt to live an unassuming existence in the suburbs of Washington, D.C., gets shattered by a secret act of sudden superhero violence. The Vision family’s humdrum normalcy slowly starts to crumble from within.",
+      "id": 7
+    },
+    {
+      "title": "The Unbeatable Squirrel Girl",
+      "description": "Doreen Green, a freshman in college who can talk to squirrels. She’s been part of some wacky superteams and a babysitter for members of the Avengers but this series is all about her trying to live a normal life.",
+      "id": 8
+    },
+    {
+      "title": "Miracleman",
+      "description": "Mick Moran, a shlumpy news photographer whose troubled dreams reveal that he’s actually the secret identity of a decades-dormant hyper-powerful hero called Miracleman.",
+      "id": 9
+    },
+    {
+      "title": "Southern Bastards",
+      "description": "Some pretty rough people in Craw County, Alabama where high school football is religion and the cops won’t stop the guy with Rebel tattooed across his throat from beating someone to death.",
+      "id": 10
+    },
+    {
+      "title": "Daredevil: Born Again",
+      "description": "In the early 1980s, Daredevil was on life support. Slumping sales and a general indifference towards the character almost caused Marvel to write him off completely. Enter artist Frank Miller, who was promoted to Daredevil's primary writer and turned the title into one of the decade's best superhero reads.",
+      "id": 11
+    },
+    {
+      "title": "Fables",
+      "description": "Many people were fearful that Vertigo wouldn't be able to sustain its success in the 2000s after the creative outburst of two preceding decades. Impressively, Bill Willingham’s Fables proved that when you have a publisher willing to push the envelope of what comics can be, there will always be great books ready to hit the market.",
+      "id": 12
+    },
+    {
+      "title": "The Killing Joke",
+      "description": "No writer was more prolific during the ‘80s than Alan Moore. While he made a name for himself on original work like V for Vendetta and Watchmen, he also dipped his toe into the waters of DC’s established roster of superheroes, like Superman, the Green Arrow, and Vigilante. It was his work on Batman, however, that revolutionized both the character and the industry as a whole.",
+      "id": 13
+    },
+    {
+      "title": "Daytripper",
+      "description": "Despite the fact that Daytripper is still relatively new, it’s impossible to ignore its absolute brilliance. Every chapter in Vertigo's 10-issue series begins with the retelling of an important event from different points of the life of obituary writer Bras de Olivias Dominguez, and each one closes with his sudden death. Then the next issue begins without him even knowing he died previously, and we're shown the same routine throughout the entire series.",
+      "id": 14
+    },
+    {
+      "title": "Sin City",
+      "description": "You’ve most likely already seen the movie, but trust us, there's more to Sin City than one film. In Frank Miller’s blood-soaked, neo-noir world, violence and hookers dominate a landscape that's one of the most expansive and detailed that we've ever seen in a comic. This book is a black-and-white callback to the pulps tales of the ‘40s, and Miller pulls all of it off effortlessly.",
+      "id": 15
+    },
+    {
+      "title": "ll-Star Superman",
+      "description": "In an attempt to strip the Man of Steel down to his essentials and market him for a broader audience, DC hired Grant Morrison to write All-Star Superman in 2005. With a mix of poetry, nostalgia, and trademark blockbuster action, Morrison turned All-Star into a love letter to the world’s greatest superhero.",
+      "id": 16,
+      "comments": [
+        {
+          "id": 2,
+          "comicId": 16,
+          "comment": "Fascinante!!!",
+          "name": "Andrea Ospina"
+        },
+        {
+          "id": 5,
+          "comicId": 16,
+          "comment": "El súper héroe que todos deseamos ser alguna vez",
+          "name": "Héctor"
+        }
+      ]
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "comicId": 1,
+      "comment": "Ojalá yo pudiera correr así",
+      "name": "Juan Carlos Osorio"
+    },
+    {
+      "id": 2,
+      "comicId": 16,
+      "comment": "Fascinante!!!",
+      "name": "Andrea Ospina"
+    },
+    {
+      "id": 3,
+      "comicId": 15,
+      "comment": "Esto debes leerlo sí o sí!!!.. no esperes más",
+      "name": "Leonardo fabio"
+    },
+    {
+      "id": 4,
+      "comicId": 14,
+      "comment": "Estuvo como regular.. esperemos que la próxima entrega sea mejor",
+      "name": "Sebastián Jaramillo"
+    },
+    {
+      "id": 5,
+      "comicId": 16,
+      "comment": "El súper héroe que todos deseamos ser alguna vez",
+      "name": "Héctor"
+    }
+  ]
+}

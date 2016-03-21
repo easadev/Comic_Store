@@ -1,0 +1,17 @@
+<div ng-controller="AddEmployeeController" class="form-column">
+    <h2>NUEVO EMPLEADO</h2>
+    <form class="pure-form pure-form-stacked" name="AddEmployee">
+        <label>Nombre completo</label>
+        <input placeholder="Nombre" type="text" name="name" ng-model="employee.name" required>
+        <label>Correo</label>
+        <input type="email"  name="email" placeholder="Correo" ng-model="employee.email" required>
+        <p ng-show="AddEmployee.email.$error.email" class="error">No es un email válido.</p>
+        <label>Nombre de usuario</label>
+        <input type="text" ng-model="employee.username" name="username" placeholder="Usuario" required>
+        <label>Contraseña</label>
+        <input type="password" name="password" valid-password ng-model="employee.password" placeholder="Contraseña" required>
+        <p ng-show="AddEmployee.password.$error.validPassword" class="error">Debe ser de más de 7 caracteres y contener mínimo dos números, una mayúscula y un caracter especial</p>
+        <input type="hidden">
+        <button class="pure-button pure-button-primary" ng-disabled="!AddEmployee.$valid" ng-click="createEmployee(employee)">Crear empleado</button>
+    </form>
+</div>
