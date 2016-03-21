@@ -98,6 +98,10 @@ table{
     height: 50px;
     padding-top: 15px;
 }
+
+.pure-menu-custom .pure-menu-link{
+    color: #fff;
+}
 .pure-menu-custom > button{
     float:right;
     height: 50px;
